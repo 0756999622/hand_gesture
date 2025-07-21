@@ -10,23 +10,34 @@ dependencies:
     sdk: flutter
   camera: ^0.11.1
   hand_landmarker: ^2.0.0
-  
-  # permission_handler: ^11.0.0
-
-  # The example app's only runtime dependency is the plugin itself.
-  # All other necessary packages (camera, jni, etc.) are brought in
-  # transitively by the hand_landmarker plugin.
-  
-
-  # UI packages like this are fine to keep as a direct dependency.
   cupertino_icons: ^1.0.8
-
+  http: ^1.2.1
+  shared_preferences: ^2.2.2
+  package_info_plus: ^8.0.0
+  url_launcher: ^6.3.0
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  logging: ^1.0.2
+  web_socket_channel: ^2.1.0
 dev_dependencies:
   integration_test:
     sdk: flutter
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.4.0
+
+flutter_native_splash:
+  color: "#2196F3" # your background color
+  image: assets/images/logo.png
+  branding_mode: bottom
+  android: true
+  ios: true
+  web: false
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/mj2.webp

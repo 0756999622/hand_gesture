@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766245554248",
+    "project_id": "joash-a8e21",
+    "storage_bucket": "joash-a8e21.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766245554248:android:5d6a74b98b8ff8f29af07d",
+        "android_client_info": {
+          "package_name": "io.github.iot_gamer.hand_landmarker_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIn5YQYSkWosjLz65DDGa-VL0gsk8gfhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

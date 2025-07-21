@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  Hand Landmarker - Example Application
 
 <img src="docs/assets/demo.gif" alt="drawing" height="300"/>
@@ -36,3 +37,6 @@ It serves as a practical reference for developers using the `hand_landmarker` pl
 
 For documentation on the plugin's API and how to integrate it into your own project, please see the `README.md` file in the parent directory.
 
+=======
+# hand_gesture
+>>>>>>> c6e491bc816bf061e602c36250b27c1cc1295649

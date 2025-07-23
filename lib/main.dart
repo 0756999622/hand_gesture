@@ -25,7 +25,7 @@ Future<void> main() async {
         body: Center(
           child: Text(
             'Failed to initialize app.\nError: $e',
-            style: TextStyle(fontSize: 16),
+            style: const TextStyle(fontSize: 16),
           ),
         ),
       ),

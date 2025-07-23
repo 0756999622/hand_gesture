@@ -10,8 +10,8 @@ class AboutPage extends StatelessWidget {
   static const String _appDescription =
       'Edusense is a gesture-controlled mobile app that lets you effortlessly control your presentation slides using simple swipes and taps. Designed to keep presenters mobile and engaged, it empowers you to move freely while seamlessly navigating your slides projected on any screen.';
   static const String _developerName = 'GROUP 32 MAKERERE UNIVERSITY';
-  static const String _supportEmail = 'support@edusense.com';
-  static const String _websiteUrl = 'https://www.edusense.com';
+  static const String _supportEmail = 'mwesigway2001@gmail.com';
+  static const String _websiteUrl = 'https://okwirfrances.github.io/';
   static const String _twitterUrl = 'https://twitter.com/EdusenseApp';
   static const String _linkedinUrl = 'https://linkedin.com/company/edusense';
   static const String _privacyPolicyUrl = 'https://www.edusense.com/privacy';
@@ -176,7 +176,7 @@ class AboutPage extends StatelessWidget {
                         _linkTile(
                           context,
                           'Website',
-                          'www.edusense.com',
+                          'https://okwirfrances.github.io/',
                           _websiteUrl,
                         ),
                         _linkTile(

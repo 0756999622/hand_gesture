@@ -24,7 +24,7 @@ class _SettingsPageState extends State<SettingsPage> {
   bool _isLoading = true;
   String _serverPort = '5000';
   String _connectionStatus = 'Unknown';
-  String _appVersion = '1.0.0';
+  final String _appVersion = '1.0.0';
 
   String _userName = '';
   String _userEmail = '';
@@ -163,9 +163,9 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   void _showEditProfileDialog() {
-    final _nameController = TextEditingController(text: _userName);
-    final _emailController = TextEditingController(text: _userEmail);
-    final _formKey = GlobalKey<FormState>();
+    final nameController = TextEditingController(text: _userName);
+    final emailController = TextEditingController(text: _userEmail);
+    final formKey = GlobalKey<FormState>();
 
     showDialog(
       context: context,
@@ -173,13 +173,13 @@ class _SettingsPageState extends State<SettingsPage> {
         return AlertDialog(
           title: const Text('Edit Profile'),
           content: Form(
-            key: _formKey,
+            key: formKey,
             child: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   TextFormField(
-                    controller: _nameController,
+                    controller: nameController,
                     decoration: const InputDecoration(
                       labelText: 'Name',
                       prefixIcon: Icon(Icons.person),
@@ -193,7 +193,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   ),
                   const SizedBox(height: 12),
                   TextFormField(
-                    controller: _emailController,
+                    controller: emailController,
                     keyboardType: TextInputType.emailAddress,
                     decoration: const InputDecoration(
                       labelText: 'Email',
@@ -222,10 +222,10 @@ class _SettingsPageState extends State<SettingsPage> {
             ElevatedButton(
               child: const Text('Save'),
               onPressed: () {
-                if (_formKey.currentState!.validate()) {
+                if (formKey.currentState!.validate()) {
                   _saveProfile(
-                    _nameController.text.trim(),
-                    _emailController.text.trim(),
+                    nameController.text.trim(),
+                    emailController.text.trim(),
                   );
                   Navigator.of(context).pop();
                 }

@@ -1,4 +1,4 @@
-//import 'dart:isolate';
+import 'dart:isolate';
 import 'package:hand_landmarker/hand_landmarker.dart';
 
 void handDetectionEntryPoint(SendPort sendPort) {

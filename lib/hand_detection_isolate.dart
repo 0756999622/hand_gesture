@@ -4,7 +4,7 @@ import 'package:hand_landmarker/hand_landmarker.dart';
 void handDetectionEntryPoint(SendPort sendPort) {
   final plugin = HandLandmarkerPlugin.create();
 
-  //final port = ReceivePort();
+  final port = ReceivePort();
   sendPort.send(port.sendPort);
 
   port.listen((message) {

@@ -63,7 +63,7 @@ EduSense is a gesture-controlled mobile application designed to enhance slide pr
 - WebSocket communication currently unencrypted; future versions may implement TLS.
 
 ## Screenshots
-![EduSense Home Screen](./screenshots/home_screen.png)
+
 <img src="docs/assets/homes.png" alt="drawing" height="300"/>
 
 ## Demo

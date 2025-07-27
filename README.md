@@ -25,8 +25,8 @@ EduSense is a gesture-controlled mobile application designed to enhance slide pr
 
 ## Installation
 1. **Mobile App**:
-   - Clone the repository: `git clone https://github.com/Group32/EduSense.git`
-   - Navigate to the project directory: `cd EduSense`
+   - Clone the repository: `https://github.com/0756999622/hand_gesture.git`
+   - Navigate to the project directory: `cd hand_geature`
    - Install Flutter dependencies: `flutter pub get`
    - Run the app: `flutter run`
 2. **Python Server**:

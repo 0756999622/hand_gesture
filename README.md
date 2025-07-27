@@ -67,8 +67,7 @@ EduSense is a gesture-controlled mobile application designed to enhance slide pr
 <img src="docs/assets/homes.png" alt="drawing" height="300"/>
 
 ## Demo
-Check out the EduSense demo video: [YouTube Demo](https://youtu.be/NqOs-AQkacI?si=hpzzKALl1OEmbvy7)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqOs-AQkacI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## Contributing
 Contributions are welcome! Please follow these steps:
 1. Fork the repository.

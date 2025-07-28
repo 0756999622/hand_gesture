@@ -5,7 +5,7 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
-        android:label="hand_landmarker_example"
+        android:label="EduSense"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

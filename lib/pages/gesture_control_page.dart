@@ -142,13 +142,13 @@ class _GestureControlPageState extends State<GestureControlPage> {
     _detectionSendPort = await receivePort.first as SendPort;
   }
 
-  // Future<void> _onFrame(CameraImage frame) async {
-  //   if (_isDetecting ||
-  //       _detectionSendPort == null ||
-  //       _cameraController == null ||
-  //       _isPaused) {
-  //     return;
-  //   }
+  Future<void> _onFrame(CameraImage frame) async {
+    if (_isDetecting ||
+        _detectionSendPort == null ||
+        _cameraController == null ||
+        _isPaused) {
+      return;
+    }
 
     final now = DateTime.now();
     if (now.difference(_lastProcessed).inMilliseconds < 200) return;

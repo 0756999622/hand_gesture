@@ -28,11 +28,11 @@ class DefaultFirebaseOptions {
           'DefaultFirebaseOptions have not been configured for ios - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
-      case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+      // case TargetPlatform.macOS:
+      //   throw UnsupportedError(
+      //     'DefaultFirebaseOptions have not been configured for macos - '
+      //     'you can reconfigure this by running the FlutterFire CLI again.',
+      //   );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '

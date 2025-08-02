@@ -64,10 +64,10 @@ class _GestureAppState extends State<GestureApp> {
   }
 
   @override
-  // void dispose() {
-  //   _themeNotifier.dispose();
-  //   super.dispose();
-  // }
+  void dispose() {
+    _themeNotifier.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {

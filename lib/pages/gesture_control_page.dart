@@ -37,11 +37,11 @@ class _GestureControlPageState extends State<GestureControlPage> {
   Isolate? _detectionIsolate;
   SendPort? _detectionSendPort;
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   _initializeAll();
-  // }
+  @override
+  void initState() {
+    super.initState();
+    _initializeAll();
+  }
 
   Future<void> _initializeAll() async {
     await _loadServerSettings();

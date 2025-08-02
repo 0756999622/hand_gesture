@@ -7,9 +7,9 @@ void handDetectionEntryPoint(SendPort sendPort) {
   final port = ReceivePort();
   sendPort.send(port.sendPort);
 
-  port.listen((message) {
-    final data = message[0] as Map;
-    final SendPort replyTo = message[1];
+  // port.listen((message) {
+  //   final data = message[0] as Map;
+  //   final SendPort replyTo = message[1];
 
     try {
       final frame = data['frame'];

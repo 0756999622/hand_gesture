@@ -11,9 +11,9 @@ void handDetectionEntryPoint(SendPort sendPort) {
     final data = message[0] as Map;
     final SendPort replyTo = message[1];
 
-    // try {
-    //   final frame = data['frame'];
-    //   final orientation = data['sensorOrientation'];
+    try {
+      final frame = data['frame'];
+      final orientation = data['sensorOrientation'];
 
       final hands = plugin.detect(frame, orientation);
       replyTo.send(hands);

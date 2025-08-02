@@ -33,8 +33,8 @@ Future<void> main() async {
   }
 }
 
-// class GestureApp extends StatefulWidget {
-//   const GestureApp({super.key});
+class GestureApp extends StatefulWidget {
+  const GestureApp({super.key});
 
   @override
   State<GestureApp> createState() => _GestureAppState();
